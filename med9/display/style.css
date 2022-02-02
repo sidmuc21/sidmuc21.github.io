@@ -22,6 +22,20 @@ h2{
 	margin: 30px;
 	font-family: "Quintessential";
 }
+img{
+	width: 200px;
+	height:150px;
+}
+.landscape2{
+	border: 10px solid indigo;
+	border-radius: 30px;
+	float: left;
+}
+.landscape{
+	border: 10px dotted yellow ;
+	border-radius: 30px;
+	float: right;
+}
 .blue{
 	background-color: blue;
 	font-size: 30px;
@@ -41,7 +55,9 @@ h2{
 	color: black;
 	font-size: 18px;
 }
-
+ul{
+	color: #ffffff;
+}
 a{
 	display: block;
 	padding: 30px;
