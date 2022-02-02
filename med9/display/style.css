@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&family=Roboto:wght@100&display=swap');
+body{
+background: radial-gradient(circle, rgba(29,21,34,1) 0%, rgba(48,46,102,1) 51%, rgba(69,75,96,1) 100%);)
+}
+p{
+	color: #fce9c3;
+font-size: 20px;
+	text-align: left;
+	font-weight: bold;
+	margin: 30px;
+	letter-spacing: 0.2em;
+	font-family: "Roboto";
+}
+h2{
+	font-size: 25px;
+	padding: 30px;
+	background-color: rgb(181,151,151);
+	display: inline-block;
+	font-weight: bold;
+	color: yellow;
+	margin: 30px;
+	font-family: "Quintessential";
+}
+.blue{
+	background-color: blue;
+	font-size: 30px;
+}
+
+.green{
+	background-color: green;
+	letter-spacing: 6px;
+}
+.red{
+	background-color: red;
+	letter-spacing: 2px;
+	font-size: 15px
+}
+.yellow{
+	background-color: yellow;
+	color: black;
+	font-size: 18px;
+}
+
+a{
+	display: block;
+	padding: 30px;
+	margin: 10px;
+	border: 3px solid blue;
+	background-color: lightblue;
+}
