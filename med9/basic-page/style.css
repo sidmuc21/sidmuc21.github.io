@@ -1,0 +1,101 @@
+/*
+*
+*Title: Basic Structure of a page
+*Author: Sidrit Mucaj
+*Date: 2022.03.16
+*
+*/
+
+/*********************************General Styling***************************************/
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&display=swap');
+
+body{
+	margin: 0;
+	background:radial-gradient(circle, rgba(255,239,0,1) 1%, rgba(255,214,0,1) 100%);
+}
+/*Navigation*/
+nav{
+	background-color: #ff7f27;
+	display: flex; /*We need FLexbox because we want to have space between the image and the list*/
+	justify-content: space-between;
+	align-items: center;
+	padding:30px;
+}
+
+nav img{
+	height: 80px;
+	border-radius: 50%; /*To make round corners*/
+}
+
+nav ul{
+	list-style: none; /*To remove the bullet points*/
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	font-family: IM Fell DW Pica SC;
+	color: orange;
+}
+
+nav ul li a{
+	margin: 10px;
+	padding: 20px;
+	background-color: yellow;
+	border-radius: 15px;
+	text-decoration: none; /*To remove the underline*/
+	text-transform: uppercase;
+}
+
+nav ul li a:hover{
+	background-color: #fca41e; /*I added a darker color to make it seem like the shadow of a button*/
+	color: yellow;
+}
+
+header{
+	height: 800px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url(orangegradient.jpg);
+	background-position: center;
+	background-size: cover;
+	font-family: Eagle Lake;
+	border-radius:25px;
+}
+
+header h1{
+	font-size: 30px;
+	background-color: yellow;
+	padding: 20px;
+	color:darkorange;
+	border-radius: 200px;
+}
+
+/*Main*/
+main{
+	padding: 50px;
+    background: radial-gradient(circle, rgba(255,171,0,1) 45%, rgba(255,64,0,1) 100%);
+    border-radius: 25px;
+}
+
+main h2{
+	font-size: 20px;
+	color: yellow;
+	font-family: Eagle Lake;
+}
+/*Footer*/
+footer{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 30px;
+	background-color: #ff7f27;
+	border-radius: 25px;
+	font-family: Eagle Lake;
+	color: #ff7f27;
+}
+footer p{
+	background-color: yellow;
+	padding: 20px;
+	border-radius: 25px;
+}
