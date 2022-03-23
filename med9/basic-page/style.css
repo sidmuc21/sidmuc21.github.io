@@ -1,0 +1,171 @@
+/*
+*
+*Title: Basic Structure of a page
+*Author: Sidrit Mucaj
+*Date: 2022.03.16
+*
+*/
+
+/*********************************General Styling***************************************/
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&display=swap');
+
+:root{
+	scroll-behavior: smooth;
+}
+
+
+body{
+	margin: 0;
+	background:radial-gradient(circle, rgba(255,239,0,1) 1%, rgba(255,214,0,1) 100%);
+}
+/*Navigation*/
+nav{
+	background-color: #ff7f27;
+	display: flex; /*We need FLexbox because we want to have space between the image and the list*/
+	justify-content: space-between;
+	align-items: center;
+	padding:30px;
+}
+
+nav img{
+	height: 80px;
+	border-radius: 50%; /*To make round corners*/
+}
+
+nav ul{
+	list-style: none; /*To remove the bullet points*/
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	font-family: IM Fell DW Pica SC;
+	color: orange;
+}
+
+nav ul li a{
+	margin: 10px;
+	padding: 20px;
+	background-color: yellow;
+	border-radius: 15px;
+	text-decoration: none; /*To remove the underline*/
+	text-transform: uppercase;
+}
+
+nav ul li a:hover{
+	background-color: #fca41e; /*I added a darker color to make it seem like the shadow of a button*/
+	color: yellow;
+}
+
+header{
+	height: 800px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-position: center;
+	background-size: cover;
+	
+	border-radius:25px;
+}
+
+header h1{
+	font-size: 30px;
+	background-color: yellow;
+	padding: 20px;
+	color:darkorange;
+	border-radius: 200px;
+	font-family: "Averia Libre";
+}
+
+/*Main*/
+main{
+	padding: 150px;
+    border-radius: 25px;
+}
+
+main h2{
+	font-size: 20px;
+	color: yellow;
+	font-family: Averia Libre;
+}
+/*Section*/
+section{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: orange;
+	padding: 150px;
+	border-radius: 25px;
+}
+section .left{
+	width: 60%;
+		background-color: yellow;
+	padding: 50px;
+	border-radius: 25px;
+	color: #fc6203;
+}
+section .right{
+	width: 40%;
+		background-color: yellow;
+	padding: 50px;
+	border-radius: 25px;
+	color: #fc6203;
+}
+/*Footer*/
+footer{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 30px;
+	background-color: #ff7f27;
+	border-radius: 25px;
+	font-family: Averia Libre;
+	color: #ff7f27;
+}
+footer p{
+	background-color: yellow;
+	padding: 20px;
+	border-radius: 25px;
+}
+/*******************************************Home Page Styling**************************************************/
+
+
+#home header {
+	background-image: url(orangegradient.jpg);
+}
+#home main{
+	background: radial-gradient(circle, rgba(255,171,0,1) 45%, rgba(255,64,0,1) 100%);
+}
+
+#home #pictures{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	background-color: #ff4000;
+}
+
+#home #pictures img {
+	width: 200px;
+	padding: 10px;
+	border: double yellow;
+	margin: 10px;
+}
+
+
+
+/******************************************Contact Page Styling**********************************************/
+
+
+#contact header{
+	background-image: url(contactorangegradient.jpg);
+}
+#contact main {
+	background: radial-gradient(circle, rgba(255,64,0,1) 0%, rgba(255,171,0,1) 100%);
+	display: flex;
+	padding: 200px;
+	align-items: center;
+	justify-content: center;
+}
+#contact main ul{
+	color: white;
+}
