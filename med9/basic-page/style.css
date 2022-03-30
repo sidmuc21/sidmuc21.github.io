@@ -63,8 +63,8 @@ header{
 	align-items: center;
 	background-position: center;
 	background-size: cover;
-	
 	border-radius:25px;
+	font-size: 72px;
 }
 
 header h1{
@@ -167,5 +167,26 @@ footer p{
 	justify-content: center;
 }
 #contact main ul{
+	color: white;
+}
+
+/******************************************Product Page Styling**********************************************/
+
+
+#product header{
+	background-image: url(productorangegradient.jpg);
+	font-size: 72px;
+}
+#product main {
+	background: linear-gradient(180deg, rgba(255,171,0,1) 0%, rgba(255,69,0,1) 100%);
+	padding: 200px;
+
+}
+#product main ul{
+	color: white;
+}
+#product li {
+	list-style: none;
+	text-decoration: none;
 	color: white;
 }
