@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&display=swap');
+
+:root{
+	scroll-behavior: smooth;
+}
+
+
+body{
+	margin: 0;
+	background:radial-gradient(circle, rgba(255,239,0,1) 1%, rgba(255,214,0,1) 100%);
+}
+
+nav{
+	background-color: #a44ca4;
+	display: flex; 
+	justify-content: space-between;
+	align-items: center;
+	padding:30px;
+	position: fixed;
+	width: 100%;
+	box-sizing: border-box;
+	border-bottom: solid yellow;
+}
+
+nav img{
+	height: 80px;
+	border-radius: 50%; 
+}
+
+nav ul{
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	font-family: IM Fell DW Pica SC;
+	color: darkblue;
+}
+
+nav ul li a{
+	margin: 10px;
+	padding: 20px;
+	background-color: yellow;
+	border-radius: 15px;
+	text-decoration: none; 
+	text-transform: uppercase;
+}
+
+nav ul li a:hover{
+	background-color: purple; 
+	color: yellow;
+}
+
+header{
+	height: 800px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url(contactorangegradient.jpg);
+	background-position: center;
+	background-size: cover;
+	border-radius:25px;
+	font-size: 72px;
+}
+
+header h1{
+	font-size: 30px;
+	background-color: yellow;
+	padding: 20px;
+	color:purple;
+	border-radius: 200px;
+	font-family: "Averia Libre";
+}
+
+/*Section*/
+section{
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	color: purple;
+	font-size: 50px;
+	padding: 150px;
+	border: solid yellow;
+	font-family: Averia Libre;
+}
+
+#link1{
+	background-color: lightblue;
+	padding: 250px;
+}
+#link2{
+	background-color: lightyellow;
+		padding: 250px;
+}
+#link3{
+	background-color: lightpink;
+		padding: 250px;
+}
