@@ -1,0 +1,21 @@
+*{
+	border: 1px solid blue;
+	margin: 5px;
+	padding: 80px;
+}
+p{
+	background-color: red;
+	position: fixed;
+	left: 100px;
+	top: 0px;
+	z-index: -1;
+}
+main{
+	background-color: green ;
+	z-index: 0;
+}
+header{
+	position: relative;
+	z-index: -20;
+	background-color: blue;
+}
