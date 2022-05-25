@@ -1,0 +1,27 @@
+body {
+ background-image: url("background.jpg");
+ background-color: #cccccc;
+}
+h1{
+	color: darkred
+	background-image: linear-gradient(darkred,  red);
+}
+ul{
+	padding: 20px;
+	padding-bottom: 10px darkred;
+	padding-top: 10px darkred;
+	border: double 10px green;
+	background-image: linear-gradient(darkred,  red);
+}
+li{
+	color: darkred;
+	font-size: 20px;
+	background-color:#197501;
+}
+img{
+	padding:  20px;
+	padding-bottom: 10px darkred;
+	padding-top: 10px darkred;
+	border: dashed 10px green;
+	background-color: darkred;
+}
