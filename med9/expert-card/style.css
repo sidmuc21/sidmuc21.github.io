@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+body{
+	margin: 0;
+}
+header{
+	background-image: url(background.jpg);
+	width: 100%;
+	height: 300px;
+}
+header .logo {
+	width:120px;
+	height: 120px;
+	border-radius: 50%;
+	background-image: url(logo.jpg);
+	position: relative;
+	top: 225px;
+	left: 100px;
+}
+main{
+	padding: 50px;
+	font-family: "Roboto";
+	font-weight: 700;
+}
+p{
+	color: darkgrey;
+	font-family: "Roboto";
+	font-weight: 300;
+}
