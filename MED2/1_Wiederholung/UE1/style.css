@@ -1,0 +1,9 @@
+
+body{
+	background-color: grey;
+	color: #6e3434;
+}
+#pizza{
+	border: dashed 5px;
+	width: 401px;
+}
