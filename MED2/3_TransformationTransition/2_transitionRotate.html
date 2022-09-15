@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Transform Scale</title>
+	<style>
+
+	div{
+
+		background-color: lightblue;
+		color: black;
+		width: 100px;
+		height: 60px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.o{
+		position: absolute;
+		left: 100px;
+		top: 200px;
+	}
+	.r{
+		background-color: red;
+		position: absolute;
+		left: 500px;
+		top: 200px;
+	}
+    div:hover{
+		transform: rotate(180deg);
+
+	}
+	.r:hover{
+		transform: rotate(180deg);
+		transition-duration: 5s;
+		transition-timing-function: ease-in;
+		background-color: blue;
+		transition: transform 5s,background-color 15s;
+	}
+
+</style>
+</head>
+<body>
+	<h1>Rotate</h1>
+	<p>The scale()CSS function defines a transformation that resizes an element on the 2D plane.</p>
+	<div class="o">rotate</div>
+	<div class="r">rotate</div> 
+</body>
+</html>
